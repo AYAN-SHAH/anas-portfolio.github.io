@@ -1,0 +1,146 @@
+@media screen and  (max-width:440px){
+
+.links {
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.links li {
+    list-style: none;
+    color: rgb(51, 2, 69);
+
+}
+
+.links li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: small;
+    text-transform: capitalize;
+
+    padding: 4px 8px;
+}
+.all-heading{
+    color:#7214ff ;
+    font-size: 30px;
+     text-indent: 0; 
+     margin: 15px 0 20px 0 ;
+     
+     
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.cool-link {
+    display: inline-block;
+
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: orangered;
+    transition: width .3s;
+    margin-top: 1px;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+/* body{
+    background-color: rgb(51, 2, 69);
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow: 0px 1px 10px gray ;
+    background-color: white;
+}
+a:visited{
+    color: #7214ff;
+}
+a:active{
+    color: #7214ff;
+}
+header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.logo {
+    margin-left: 2vw;
+}
+
+.logo a img {
+    width: 65px;
+}
+.service-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.svg{
+    padding:35px 0 0 0;
+    
+    display: inline-block;
+    margin: 18px 2vw;    
+}
+.item-text{
+display: flex;
+padding: 25px 2vw;
+}
+.service-item{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #7214ff ;
+    border-radius: 10px;
+    align-items: center;
+    width: 160px;
+    margin: 8px 5px;
+height: 190px;
+
+}
+.bg-chnge{
+    border-radius: 25px;
+    padding: 20px 0 35px 0;
+    border-top: 3px solid #7214ff;
+    border-bottom: 3px solid #7214ff;
+    width: 100vw;
+    margin: auto;
+
+
+}
+    
+
+.item-text{
+    font-size: 14px;
+    font-weight: 700;
+    color:#7214ff;
+    text-align: center;
+}
+
+.service-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+
+
+
+
+
+}
+}

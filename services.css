@@ -1,0 +1,52 @@
+.service-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.svg{
+    padding:35px 0 0 0;
+    
+    display: inline-block;
+    margin: 20px 4vw;    
+}
+.item-text{
+display: flex;
+padding: 30px 2vw;
+}
+.service-item{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #7214ff ;
+    border-radius: 10px;
+    align-items: center;
+    width: 210px;
+    margin: 16px 20px;
+height: 210px;
+
+}
+.bg-chnge{
+    border-radius: 25px;
+    padding: 20px 0 35px 0;
+    border-top: 3px solid #7214ff;
+    border-bottom: 3px solid #7214ff;
+    width: 90vw;
+    margin: auto;
+
+
+}
+    
+
+.item-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #7214ff;
+    text-align: center;
+}
+
+.service-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+
+}
